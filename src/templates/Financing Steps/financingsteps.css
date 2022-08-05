@@ -1,0 +1,385 @@
+#finsteps {
+  width: 100%;
+  height: 300px;
+  display: inline-block;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../../assets/images/jaguar_financing_steps_main.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.title-section {
+  width: 20em;
+  margin-top: 8%;
+  background: transparent;
+}
+.btn {
+  text-align: center;
+  margin-left: 3.2%;
+}
+.btn:hover {
+  background: linear-gradient(
+    rgba(241, 234, 234, 0.6),
+    rgba(241, 238, 238, 0.6)
+  );
+}
+.title-section h4 {
+  color: white;
+  padding: 10px 0 0 40px;
+  font-size: 32px;
+  text-align: left !important;
+  margin-top: 150px;
+}
+
+.title-section p {
+  color: white;
+  padding: 10px;
+  font-size: 12px;
+}
+
+.body-header h3 {
+  text-align: center;
+  margin-bottom: 1%;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding-bottom: 10px;
+}
+
+.body-subheader h4 {
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding-bottom: 30px;
+}
+.body-list {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 40px;
+  padding-top: 10px;
+}
+.sub-main {
+  text-align: center;
+}
+
+.btn2 {
+  text-align: center;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 4px;
+  background-color: #396cb4;
+  border: none;
+  padding: 9px;
+  width: 160px;
+  transition: all 0.5s;
+  color: white;
+  margin-right: 2%;
+}
+
+.btn2:hover {
+  background-color: #0a4386;
+}
+
+.btn2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.btn2 span:after {
+  content: "»";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -9px;
+  transition: 0.5s;
+}
+.btn2:hover span {
+  padding-right: 20px;
+}
+.btn2:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.locateus {
+  text-align: center;
+}
+.btn3 {
+  text-align: center;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 4px;
+  background-color: #396cb4;
+  border: none;
+  padding: 9px;
+  width: 200px;
+  transition: all 0.5s;
+  color: white;
+  margin-top: 5%;
+}
+
+.btn3:hover {
+  background-color: #1e4f88;
+}
+.mail {
+  text-align: center !important;
+}
+.mail h5 {
+  font-weight: 600;
+  word-spacing: 1px;
+  text-align: center;
+}
+
+.body-locate {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 50px;
+}
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #474747;
+  margin: 1em 0;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 3%;
+}
+.vertical {
+  width: 0px;
+  height: 100%;
+  border-top: 0px solid #474747;
+  display: block;
+  height: 100px;
+  background: #474747;
+  border: 1px solid #474747;
+  margin-left: 124px;
+  margin-top: 0px;
+}
+i {
+  font-size: 60px !important;
+  color: #474747;
+}
+.list1,
+.list2,
+.list3 {
+  padding: 0 1%;
+}
+
+@media only screen and (max-width: 700px) {
+  .body-subheader h4 {
+    font-size: 16px;
+    margin: 20px 2px 2px;
+  }
+  .body-header h3 {
+    font-size: 18px;
+  }
+  .body-list {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0px;
+  }
+  .body-locate {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 50px;
+    padding-top: 50px;
+  }
+  .list1,
+  .list2,
+  .list3 {
+    margin-bottom: 30px;
+    padding: 0 1%;
+  }
+  .vertical {
+    display: none;
+  }
+  .title-section {
+    width: 20em;
+    margin-top: 8%;
+    background: transparent;
+    padding-top: 40px;
+  }
+  i {
+    font-size: 40px !important;
+  }
+  .btn3 {
+    font-size: 15px;
+    width: 180px;
+    margin-top: 3%;
+    margin-bottom: 10%;
+  }
+  .btn2 {
+    font-size: 15px;
+    width: 120px;
+    margin-bottom: 7px;
+    height: 43px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  div.body-list > div > h5,
+  div.mail > h5 {
+    font-size: 1.3em;
+  }
+  div.body-list > div > p,
+  div.mail > p {
+    font-size: 1em !important;
+  }
+  .body-subheader h4 {
+    font-size: 16px;
+    margin: 20px 2px 2px;
+  }
+  .body-header h3 {
+    font-size: 18px;
+  }
+  .body-list {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0px;
+  }
+  .vertical {
+    border: 0;
+    height: 1px;
+    display: block;
+    width: 50%;
+    margin: 8% 25% 7% 25%;
+  }
+  .btn2 {
+    font-size: 15px;
+    width: 120px;
+    margin-bottom: 7px;
+    height: 43px;
+  }
+  .btn3 {
+    font-size: 13px;
+    padding: 9px;
+    width: 155px;
+    margin-top: 3%;
+  }
+  i {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  div.body-list > div > h5,
+  div.mail > h5 {
+    font-size: 1.2em !important;
+  }
+  .body-header {
+    padding: 0 1%;
+  }
+  .body-subheader {
+    padding: 0 1%;
+  }
+  .body-subheader h4 {
+    font-size: 16px;
+    margin: 20px 2px 2px;
+    letter-spacing: inherit;
+  }
+  .body-header h3 {
+    font-size: 18px;
+    letter-spacing: inherit;
+  }
+  .body-list {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0px;
+  }
+  .vertical {
+    display: none;
+  }
+  .btn2 {
+    font-size: 15px;
+    width: 120px;
+    margin-bottom: 7px;
+    height: 43px;
+  }
+  .btn3 {
+    font-size: 12px;
+    padding: 9px;
+    width: 42%;
+    margin-bottom: 20%;
+  }
+  i {
+    font-size: 30px;
+  }
+  div.body-list > div > p,
+  div.mail > p {
+    font-size: 1em !important;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .body-header {
+    padding: 0 1%;
+  }
+  .body-subheader {
+    padding: 0 1%;
+  }
+  .body-subheader h4 {
+    font-size: 16px;
+    margin: 20px 2px 2px;
+  }
+  .body-list {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0px;
+  }
+  .btn3 {
+    font-size: 12px;
+    margin-top: 3%;
+    padding: 9px;
+    width: 50%;
+    margin-bottom: 20%;
+  }
+  .btn2 {
+    font-size: 15px;
+    width: 120px;
+    margin-bottom: 7px;
+    height: 43px;
+  }
+  .vertical {
+    display: none;
+  }
+  .btn {
+    text-align: center;
+    margin-left: 8.2%;
+  }
+  .title-section h4 {
+    font-size: 30px;
+  }
+  .body-header h3,
+  .body-subheader h4 {
+    font-size: inherit;
+  }
+  div.body-list > div > h5,
+  div.mail > h5 {
+    font-size: 1.2em !important;
+  }
+  div.body-list > div > p,
+  div.mail > p {
+    font-size: 1em !important;
+  }
+  i {
+    font-size: 30px;
+  }
+}
+
+a,
+a:hover {
+  text-decoration: inherit !important;
+  color: inherit;
+}
+
+div.body-list > div > h5,
+div.mail > h5 {
+  font-size: 1.5em;
+}
+
+div.body-list > div > p,
+div.mail > p {
+  font-size: 1.1em;
+}

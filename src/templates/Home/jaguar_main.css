@@ -1,0 +1,207 @@
+.section {
+  background-size: cover !important;
+}
+#section1 {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../../assets/images/jaguar_header.jpg) no-repeat 50% 50%;
+}
+
+.main-button {
+  width: 20%;
+  margin-top: 1%;
+  border: 3px solid white;
+  transition: all 0.5s;
+  border-radius: 20px;
+  text-align: center;
+  margin-left: 40%;
+}
+.main-button:hover {
+  background: #fff;
+  color: black;
+  font-weight: bold;
+}
+.sec-button1 {
+  width: 20%;
+  margin-left: 15%;
+  margin-top: 1%;
+  border: 3px solid white;
+  transition: all 0.5s;
+  border-radius: 20px;
+  text-align: center;
+}
+.sec-button1:hover {
+  background: #fff;
+  color: black;
+  font-weight: bold;
+}
+.section-content {
+  /*border:1px solid #F00;*/
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+.section-content h2 {
+  color: whitesmoke;
+  font-size: 36px;
+  font-weight: 400;
+}
+.sec-button2 {
+  width: 20%;
+  margin-left: 39.5%;
+  margin-top: 1%;
+  border: 3px solid white;
+  transition: all 0.5s;
+  border-radius: 20px;
+  text-align: center;
+}
+.sec-button2:hover {
+  background: #fff;
+  color: black;
+  font-weight: bold;
+}
+.section-content .card-verbiage {
+  color: white;
+  font-size: 14px;
+  line-height: 24px;
+  /* padding: 0px 25%; */
+}
+#section2 {
+  /* background-color:#0F0;  */
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../../assets/images/jaguar_leaseloan_main.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+#section2 h2 {
+  color: whitesmoke;
+  font-size: 36px;
+  font-weight: 500;
+  text-align: center;
+  line-height: 1.2;
+}
+#section3 {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../../assets/images/jaguar_leaseend_main.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+#section3 h2 {
+  color: snow;
+  font-size: 36px;
+  font-weight: 500;
+  text-align: center;
+  line-height: 1.2;
+}
+.sec-button3:hover {
+  background: #fff;
+  color: black;
+  font-weight: bolder;
+}
+#section4 {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../../assets/images/jaguar_financing_steps_main.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+#section4 h2 {
+  color: whitesmoke;
+  font-size: 36px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1.2;
+}
+.sec-button3 {
+  width: 20%;
+  margin-left: 39.5%;
+  margin-top: 1%;
+  border: 3px solid white;
+  transition: all 0.5s;
+  border-radius: 20px;
+  text-align: center;
+}
+#section5 {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../../assets/images/jaguar_glossary_main.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+#section6 {
+  background-color: #373a3c;
+}
+
+#fp-nav ul li {
+  display: block;
+  width: 3px !important;
+  height: 18px !important;
+  margin: 8px !important;
+  position: relative;
+}
+
+#fp-nav ul li a span {
+  border-radius: 20% !important;
+  width: 100% !important;
+  height: 100% !important;
+  background: #807e7e !important;
+  left: 0 !important;
+  top: 0 !important;
+}
+
+#fp-nav ul li a.active span {
+  background: #ffffff !important;
+}
+
+#fp-nav ul li a.active span,
+#fp-nav ul li:hover a span,
+#fp-nav ul li:hover a.active span {
+  margin: -2px 0 0 -2px !important;
+}
+
+#fp-nav ul li div {
+  text-transform: uppercase;
+  font-family: "Open Sans", arial, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  left: 10px !important;
+}
+
+#fp-nav.fp-show-active a.active + .fp-tooltip {
+  -webkit-animation: cssAnimation 2s forwards !important;
+  animation: cssAnimation 2s forwards !important;
+}
+
+@keyframes cssAnimation {
+  0% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes cssAnimation {
+  0% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@media (max-width: 800px) {
+  #fp-nav {
+    display: none;
+  }
+  .section-content .card-verbiage {
+    color: white;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 0px 15%;
+  }
+  #sectionfooter .section-content h4 {
+    font-size: 15px;
+  }
+  #sectionfooter .section-content h4 {
+    font-size: 15px;
+  }
+}

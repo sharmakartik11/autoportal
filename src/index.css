@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", arial, sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+p.footerLinks {
+  margin-top: 30px;
+}
+
+.footerLink {
+  font-weight: 600;
+  font-size: 0.9em;
+}
+
+a {
+  font-weight: 600 !important;
+}
+
+a:hover {
+  opacity: 0.75;
+}

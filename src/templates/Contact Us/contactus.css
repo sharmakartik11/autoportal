@@ -1,0 +1,260 @@
+#finsteps {
+  width: 100%;
+  height: 300px;
+  display: inline-block;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../../assets/images/jaguar_financing_steps_main.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.title-section {
+  width: 20em;
+  margin-top: 8%;
+  background: transparent;
+}
+.btn {
+  text-align: center;
+  margin-left: 3.2%;
+}
+.btn:hover {
+  background: linear-gradient(
+    rgba(161, 147, 147, 0.6),
+    rgba(161, 147, 147, 0.6)
+  );
+}
+.title-section h4 {
+  color: white;
+  padding: 10px 0 0 40px;
+  font-size: 32px;
+  text-align: left !important;
+  margin-top: 150px;
+}
+
+.title-section p {
+  color: white;
+  padding: 10px;
+  font-size: 12px;
+}
+
+.body-header h3 {
+  text-align: center;
+  margin-bottom: 1%;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding-bottom: 10px;
+}
+
+.body-subheader h4 {
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding-bottom: 30px;
+}
+.body-list {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 40px;
+  padding-top: 10px;
+}
+.sub-main {
+  text-align: center;
+}
+
+.btn2 {
+  text-align: center;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 4px;
+  background-color: #0b6efd;
+  border: none;
+  padding: 9px;
+  width: 160px;
+  transition: all 0.5s;
+  color: white;
+  margin-right: 2%;
+}
+
+btn2:hover {
+  background-color: #0a4386;
+  color: white;
+}
+
+.btn2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.btn2 span:after {
+  content: "»";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -9px;
+  transition: 0.5s;
+}
+.btn2:hover span {
+  padding-right: 20px;
+}
+.btn2:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.locateus {
+  text-align: center;
+}
+.btn3 {
+  text-align: center;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 4px;
+  background-color: rgb(68, 139, 78);
+  border: none;
+  padding: 9px;
+  width: 200px;
+  transition: all 0.5s;
+  color: white;
+  margin-top: 5%;
+}
+
+.btn3:hover {
+  background-color: rgb(48, 102, 55);
+}
+.mail {
+  text-align: center !important;
+}
+.mail h5 {
+  font-weight: 600;
+  word-spacing: 1px;
+  text-align: center;
+}
+
+.body-locate {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 50px;
+}
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid black;
+  margin: 1em 0;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 3%;
+}
+.vertical {
+  width: 0px;
+  height: 100%;
+  border-top: 0px solid black;
+  display: block;
+  height: 100px;
+  background: black;
+  border: 1px solid black;
+  margin-left: 124px;
+  margin-top: 0px;
+}
+i {
+  font-size: 60px;
+}
+
+@media only screen and (max-width: 700px) {
+  .body-locate {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+    padding-top: 50px;
+  }
+
+  .vertical {
+    height: 105px;
+    margin-left: 13%;
+  }
+  .title-section {
+    width: 20em;
+    margin-top: 8%;
+    background: transparent;
+    padding-top: 40px;
+  }
+  i {
+    font-size: 30px;
+  }
+  .btn3 {
+    font-size: 15px;
+    width: 180px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .vertical {
+    height: 105px;
+    margin-left: 15%;
+  }
+  .btn2 {
+    font-size: 13px;
+    width: 160px;
+    margin-bottom: 7px;
+  }
+  .btn3 {
+    font-size: 13px;
+    padding: 9px;
+    width: 155px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .vertical {
+    margin-left: 15%;
+    height: 120px;
+  }
+  .btn2 {
+    font-size: 12px;
+    width: 110px;
+    margin-bottom: 7px;
+  }
+  .btn3 {
+    font-size: 12px;
+    padding: 6px;
+    width: 110px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .btn3 {
+    font-size: 12px;
+    padding: 6px;
+    width: 110px;
+  }
+  .btn2 {
+    font-size: 12px;
+    width: 110px;
+    margin-bottom: 7px;
+  }
+  .vertical {
+    margin-left: 9%;
+    height: 140px;
+  }
+  .btn {
+    text-align: center;
+    margin-left: 8.2%;
+  }
+  .title-section h4 {
+    font-size: 30px;
+  }
+  .body-header h3,
+  .body-subheader h4 {
+    font-size: inherit;
+  }
+  .list1 h5 {
+    font-size: 13px;
+  }
+  p {
+    font-size: 12px;
+  }
+  .body-list {
+    padding-bottom: 20px;
+  }
+}
